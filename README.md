@@ -144,7 +144,10 @@ function antdKeyToBaiduKey(antdkey) {
   return baidukey;
 }
 ```
+ 
 
-![image]('./snapshot.png')
+![snapshot](https://github.com/yuanguandong/auto-locale/blob/master/snapshot.png)
 
-2. 记得百度翻译好像是翻译服务申请一个月之后才能进行批量翻译，如果报错可能因为这个导致的，欢迎提issue
+
+
+1. 记得百度翻译好像是翻译服务申请一个月之后才能进行批量翻译，如果报错可能因为这个导致的，欢迎提issue
