@@ -131,7 +131,7 @@ npm run locale
 
 
 ### 注意
-代码里还维护了一个antd所需的国际化语言和百度翻译所需的国际化语言的key的转换字典
+1. 代码里还维护了一个antd所需的国际化语言和百度翻译所需的国际化语言的key的转换字典
 这个antdkey其实会生成以此命名的国际化文件,方便加载和使用
 ```js
 //antd语言key和百度翻译语言key装换
@@ -146,3 +146,5 @@ function antdKeyToBaiduKey(antdkey) {
 ```
 
 ![image]('./snapshot.png')
+
+2. 记得百度翻译好像是翻译服务申请一个月之后才能进行批量翻译，如果报错可能因为这个导致的，欢迎提issue
